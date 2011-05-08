@@ -1,0 +1,8 @@
+<li> <a href="$URL?blog=$BLOG&post=$POST">$POST_TITLE</a> <br>
+<small>Posted  at $TIME by $USER</small>
+<p>
+$POST_CONTENT
+<p>
+<a href="?">$N_COMMENTS comments</a>
+<a href="$URL?blog=$BLOG&post=$POST&action=edit_posting">Edit</a>
+<p>

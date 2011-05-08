@@ -1,0 +1,8 @@
+<form method="GET" action="$URL">
+Blog name: <input type="text" name="blog" value="MyBlog">
+<p>
+Blog title: <input type="text" name="new_blog_title" value="My WordSquash Blog">
+<p>
+<input type="hidden" name="action" value="display_blog">
+<input type="submit" value="Create Blog">
+</form>
