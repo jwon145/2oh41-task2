@@ -21,7 +21,7 @@ sub read_file($);
 sub write_file($$);
 
 # This HTML could be in a template file but it assists debugging to have it output ASAP
-print header,"<html><head><title>WordSquash</title></head><body>\n";
+print header,"<html><head><title>Wurdsquash</title></head><body>\n";
 # Leave parameters in a HTML comment for debugging
 print "<!-- ".join(",", map({"$_='".param($_)."'"} param()))."-->\n";
 
